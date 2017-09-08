@@ -224,7 +224,7 @@ Example
 
 .. code-block:: javascript
 
-    var subscription = web3.eth.subscribe('newBlockHeaders', function(error, result){
+    var subscription = web3.eth.subscribe('newBlockHeaders', function(error, blockHeader){
         if (!error)
             console.log(blockHeader);
     })
